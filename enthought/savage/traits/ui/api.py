@@ -1,2 +1,2 @@
 # proxy module
-from enable.savage.traits.ui.api import *
+from enable.savage.trait_defs.ui.api import *

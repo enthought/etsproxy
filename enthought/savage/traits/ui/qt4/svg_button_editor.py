@@ -1,2 +1,2 @@
 # proxy module
-from enable.savage.traits.ui.qt4.svg_button_editor import *
+from enable.savage.trait_defs.ui.qt4.svg_button_editor import *

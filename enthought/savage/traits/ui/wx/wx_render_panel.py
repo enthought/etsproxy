@@ -1,2 +1,2 @@
 # proxy module
-from enable.savage.traits.ui.wx.wx_render_panel import *
+from enable.savage.trait_defs.ui.wx.wx_render_panel import *
