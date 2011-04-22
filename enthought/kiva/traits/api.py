@@ -1,2 +1,2 @@
 # proxy module
-from enable.kiva.traits.api import *
+from enable.kiva.trait_defs.api import *
