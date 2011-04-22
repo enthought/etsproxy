@@ -1,2 +1,2 @@
 # proxy module
-from enable.traits.ui.qt4.rgba_color_editor import *
+from enable.trait_defs.ui.qt4.rgba_color_editor import *

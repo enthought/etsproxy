@@ -1,2 +1,2 @@
 # proxy module
-from enable.traits.ui.wx.rgba_color_editor import *
+from enable.trait_defs.ui.wx.rgba_color_editor import *

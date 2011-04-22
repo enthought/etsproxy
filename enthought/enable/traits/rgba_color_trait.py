@@ -1,2 +1,2 @@
 # proxy module
-from enable.traits.rgba_color_trait import *
+from enable.trait_defs.rgba_color_trait import *

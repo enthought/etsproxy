@@ -1,2 +1,2 @@
 # proxy module
-from enable.traits.api import *
+from enable.trait_defs.api import *
