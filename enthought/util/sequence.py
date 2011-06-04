@@ -1,2 +1,2 @@
 # proxy module
-from traits.util.sequence import *
+from codetools.util.sequence import *

@@ -1,2 +1,2 @@
 # proxy module
-from traits.util.functional import *
+from codetools.util.functional import *

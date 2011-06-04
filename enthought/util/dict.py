@@ -1,2 +1,2 @@
 # proxy module
-from traits.util.dict import *
+from codetools.util.dict import *

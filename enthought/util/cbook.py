@@ -1,2 +1,2 @@
 # proxy module
-from traits.util.cbook import *
+from codetools.util.cbook import *

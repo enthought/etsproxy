@@ -1,2 +1,2 @@
 # proxy module
-from traits.util.equivalence import *
+from codetools.util.equivalence import *
