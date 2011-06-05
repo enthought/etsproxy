@@ -1,2 +1,2 @@
 # proxy module
-from enable.kiva.agg.setup import *
+from kiva.agg.setup import *

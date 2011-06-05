@@ -1,2 +1,2 @@
 # proxy module
-from enable.kiva.pdf import *
+from kiva.pdf import *

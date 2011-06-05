@@ -1,2 +1,2 @@
 # proxy module
-from enable.kiva.agg.freetype2.src.tools.glnames import *
+from kiva.agg.freetype2.src.tools.glnames import *

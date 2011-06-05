@@ -1,2 +1,2 @@
 # proxy module
-from enable.kiva.gl import *
+from kiva.gl import *

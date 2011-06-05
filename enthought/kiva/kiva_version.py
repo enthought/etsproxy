@@ -1,2 +1,2 @@
 # proxy module
-from enable.kiva.kiva_version import *
+from kiva.kiva_version import *

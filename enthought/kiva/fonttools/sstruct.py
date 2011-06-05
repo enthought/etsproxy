@@ -1,2 +1,2 @@
 # proxy module
-from enable.kiva.fonttools.sstruct import *
+from kiva.fonttools.sstruct import *

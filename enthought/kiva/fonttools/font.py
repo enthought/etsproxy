@@ -1,2 +1,2 @@
 # proxy module
-from enable.kiva.fonttools.font import *
+from kiva.fonttools.font import *

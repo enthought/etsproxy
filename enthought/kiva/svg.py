@@ -1,2 +1,2 @@
 # proxy module
-from enable.kiva.svg import *
+from kiva.svg import *

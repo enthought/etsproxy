@@ -1,2 +1,2 @@
 # proxy module
-from enable.kiva.affine import *
+from kiva.affine import *

@@ -1,2 +1,2 @@
 # proxy module
-from enable.kiva.setup import *
+from kiva.setup import *

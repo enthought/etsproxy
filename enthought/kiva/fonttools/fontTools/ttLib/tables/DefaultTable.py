@@ -1,2 +1,2 @@
 # proxy module
-from enable.kiva.fonttools.fontTools.ttLib.tables.DefaultTable import *
+from kiva.fonttools.fontTools.ttLib.tables.DefaultTable import *

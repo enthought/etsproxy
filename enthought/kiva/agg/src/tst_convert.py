@@ -1,2 +1,2 @@
 # proxy module
-from enable.kiva.agg.src.tst_convert import *
+from kiva.agg.src.tst_convert import *

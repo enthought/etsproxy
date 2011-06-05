@@ -1,2 +1,2 @@
 # proxy module
-from enable.kiva.cairo import *
+from kiva.cairo import *

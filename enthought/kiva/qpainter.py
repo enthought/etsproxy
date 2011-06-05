@@ -1,2 +1,2 @@
 # proxy module
-from enable.kiva.qpainter import *
+from kiva.qpainter import *

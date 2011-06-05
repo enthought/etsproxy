@@ -1,2 +1,2 @@
 # proxy module
-from enable.kiva.fonttools.fontTools.ttLib.sfnt import *
+from kiva.fonttools.fontTools.ttLib.sfnt import *

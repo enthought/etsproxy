@@ -1,2 +1,2 @@
 # proxy module
-from enable.kiva.quartz.setup import *
+from kiva.quartz.setup import *

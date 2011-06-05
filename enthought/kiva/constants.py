@@ -1,2 +1,2 @@
 # proxy module
-from enable.kiva.constants import *
+from kiva.constants import *

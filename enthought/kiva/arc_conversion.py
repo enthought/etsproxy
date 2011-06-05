@@ -1,2 +1,2 @@
 # proxy module
-from enable.kiva.arc_conversion import *
+from kiva.arc_conversion import *
