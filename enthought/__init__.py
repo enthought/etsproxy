@@ -3,5 +3,12 @@
 
 import warnings
 
-warnings.warn("enthough namespace imports are deprecated",
+warnings.warn("enthought namespace imports are deprecated",
               DeprecationWarning)
+
+
+try:
+    __import__('pkg_resources').declare_namespace(__name__)
+except:
+    pass
+

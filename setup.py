@@ -17,4 +17,5 @@ setup(
     license = 'BSD',
     maintainer = 'ETS Developers',
     maintainer_email = 'enthought-dev@enthought.com',
+    namespace_packages = ['enthought'],
 )
