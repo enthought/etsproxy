@@ -1,2 +1,2 @@
 # proxy module
-from traits.util.ring_buffer import *
+from apptools.logger.ring_buffer import *
