@@ -1,2 +1,2 @@
 # proxy module
-from traits.logger.agent.quality_agent_mailer import *
+from apptools.logger.agent.quality_agent_mailer import *

@@ -1,2 +1,2 @@
 # proxy module
-from traits.logger.custom_excepthook import *
+from apptools.logger.custom_excepthook import *

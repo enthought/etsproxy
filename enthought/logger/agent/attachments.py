@@ -1,2 +1,2 @@
 # proxy module
-from traits.logger.agent.attachments import *
+from apptools.logger.agent.attachments import *

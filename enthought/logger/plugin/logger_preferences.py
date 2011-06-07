@@ -1,2 +1,2 @@
 # proxy module
-from traits.logger.plugin.logger_preferences import *
+from apptools.logger.plugin.logger_preferences import *

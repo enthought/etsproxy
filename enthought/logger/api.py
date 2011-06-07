@@ -1,2 +1,2 @@
 # proxy module
-from traits.logger.api import *
+from apptools.logger.api import *
