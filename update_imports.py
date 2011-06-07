@@ -12,7 +12,6 @@ MAP = [
     ('enthought.traits', 'traits'),
     ('enthought.etsconfig', 'traits.etsconfig'),
     ('enthought.util', 'traits.util'),
-    ('enthought.logger', 'traits.logger'),
     ('enthought.qt', 'traits.qt'),
     ('enthought.testing', 'traits.testing'),
     # pyface
@@ -52,6 +51,7 @@ MAP = [
     ('enthought.appscripting', 'apptools.appscripting'),
     ('enthought.help', 'apptools.help'),
     ('enthought.io', 'apptools.io'),
+    ('enthought.logger', 'apptools.logger'),
     ('enthought.naming', 'apptools.naming'),
     ('enthought.permissions', 'apptools.permissions'),
     ('enthought.persistence', 'apptools.persistence'),
