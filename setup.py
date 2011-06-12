@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 from setuptools import setup, find_packages
 
 
@@ -9,6 +7,8 @@ version = '0.1.0'
 setup(
     name = 'etsproxy',
     version = version,
+    description = 'proxy modules for backwards compatibility',
+    long_description = open('README.rst').read(),
     packages = find_packages(),
     author = 'Enthought, Inc.',
     author_email = 'info@enthought.com',
