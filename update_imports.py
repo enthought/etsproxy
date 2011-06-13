@@ -12,10 +12,10 @@ MAP = [
     ('enthought.traits', 'traits'),
     ('enthought.etsconfig', 'traits.etsconfig'),
     ('enthought.util', 'traits.util'),
-    ('enthought.qt', 'pyface.qt'),
     ('enthought.testing', 'traits.testing'),
     # pyface
     ('enthought.pyface', 'pyface'),
+    ('enthought.qt', 'pyface.qt'),
     ('enthought.resource', 'pyface.resource'),
     # enable
     ('enthought.enable', 'enable'),
