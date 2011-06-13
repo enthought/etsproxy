@@ -9,4 +9,4 @@
 # Description: Qt API selector. Can be used to switch between pyQt and PySide
 #------------------------------------------------------------------------------
 
-from traits.qt import qt_api
+from pyface.qt import qt_api

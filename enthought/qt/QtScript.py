@@ -1,2 +1,2 @@
 # proxy module
-from traits.qt.QtScript import *
+from pyface.qt.QtScript import *

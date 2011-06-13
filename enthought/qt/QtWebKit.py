@@ -1,2 +1,2 @@
 # proxy module
-from traits.qt.QtWebKit import *
+from pyface.qt.QtWebKit import *

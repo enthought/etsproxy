@@ -1,2 +1,2 @@
 # proxy module
-from traits.qt.QtOpenGL import *
+from pyface.qt.QtOpenGL import *

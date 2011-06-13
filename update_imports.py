@@ -12,7 +12,7 @@ MAP = [
     ('enthought.traits', 'traits'),
     ('enthought.etsconfig', 'traits.etsconfig'),
     ('enthought.util', 'traits.util'),
-    ('enthought.qt', 'traits.qt'),
+    ('enthought.qt', 'pyface.qt'),
     ('enthought.testing', 'traits.testing'),
     # pyface
     ('enthought.pyface', 'pyface'),

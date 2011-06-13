@@ -1,2 +1,2 @@
 # proxy module
-from traits.qt.QtSvg import *
+from pyface.qt.QtSvg import *

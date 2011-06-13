@@ -1,2 +1,2 @@
 # proxy module
-from traits.qt.QtGui import *
+from pyface.qt.QtGui import *

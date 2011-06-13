@@ -1,2 +1,2 @@
 # proxy module
-from traits.qt.QtCore import *
+from pyface.qt.QtCore import *
