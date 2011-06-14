@@ -6,6 +6,12 @@ from os.path import join
 
 
 MAP = [
+    # pyface
+    ('enthought.pyface', 'pyface'),
+    ('enthought.qt', 'pyface.qt'),
+    ('enthought.resource', 'pyface.resource'),
+    ('enthought.util.guisupport', 'pyface.util.guisupport'),
+    ('enthought.util.wx', 'pyface.wx'),
     # traitsui
     ('enthought.traits.ui', 'traitsui'),
     # traits
@@ -13,10 +19,6 @@ MAP = [
     ('enthought.etsconfig', 'traits.etsconfig'),
     ('enthought.util', 'traits.util'),
     ('enthought.testing', 'traits.testing'),
-    # pyface
-    ('enthought.pyface', 'pyface'),
-    ('enthought.qt', 'pyface.qt'),
-    ('enthought.resource', 'pyface.resource'),
     # enable
     ('enthought.enable', 'enable'),
     ('enthought.kiva', 'kiva'),
