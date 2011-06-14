@@ -1,2 +1,2 @@
 # proxy module
-from traits.util.wx.switcher import *
+from pyface.wx.switcher import *

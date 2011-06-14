@@ -1,2 +1,2 @@
 # proxy module
-from traits.util.wx.divider import *
+from pyface.wx.divider import *

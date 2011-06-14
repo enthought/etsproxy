@@ -1,2 +1,2 @@
 # proxy module
-from traits.util.wx.spacer import *
+from pyface.wx.spacer import *

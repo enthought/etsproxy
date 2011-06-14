@@ -1,2 +1,2 @@
 # proxy module
-from traits.util.wx.drag_and_drop import *
+from pyface.wx.drag_and_drop import *

@@ -1,2 +1,2 @@
 # proxy module
-from traits.util.wx.spreadsheet.unit_renderer import *
+from pyface.wx.spreadsheet.unit_renderer import *

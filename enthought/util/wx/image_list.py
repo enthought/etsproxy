@@ -1,2 +1,2 @@
 # proxy module
-from traits.util.wx.image_list import *
+from pyface.wx.image_list import *

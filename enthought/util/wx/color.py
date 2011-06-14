@@ -1,2 +1,2 @@
 # proxy module
-from traits.util.wx.color import *
+from pyface.wx.color import *

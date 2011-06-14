@@ -1,2 +1,2 @@
 # proxy module
-from traits.util.wx.clipboard import *
+from pyface.wx.clipboard import *

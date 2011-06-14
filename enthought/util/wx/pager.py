@@ -1,2 +1,2 @@
 # proxy module
-from traits.util.wx.pager import *
+from pyface.wx.pager import *

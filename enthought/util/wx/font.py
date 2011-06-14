@@ -1,2 +1,2 @@
 # proxy module
-from traits.util.wx.font import *
+from pyface.wx.font import *
