@@ -1,2 +1,2 @@
 # proxy module
-from traits.util.guisupport import *
+from pyface.util.guisupport import *
