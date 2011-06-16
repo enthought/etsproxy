@@ -5,6 +5,7 @@ import os
 from os.path import join
 
 
+# Please note that the order of items in this list matters.
 MAP = [
     # pyface
     ('enthought.pyface', 'pyface'),
