@@ -14,10 +14,3 @@
 """ Support for managing resources such as images and sounds.
     Part of the TraitsGUI project of the Enthought Tool Suite.
 """
-try:
-    # if the code is ran from an egg, the namespace must be declared
-    __import__('pkg_resources').declare_namespace(__name__)
-except:
-    pass
-
-
