@@ -17,7 +17,6 @@ the PyQt user interface toolkit.
 # can be set correctly if needed
 import enthought.qt
 
-__import__('pkg_resources').declare_namespace(__name__)
 
 #-------------------------------------------------------------------------------
 #  Define the reference to the exported GUIToolkit object:

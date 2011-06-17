@@ -14,5 +14,4 @@
 """ Application scripting framework, part of the AppTools project
     of the Enthought Tool Suite.
 """
-__import__('pkg_resources').declare_namespace(__name__)
 

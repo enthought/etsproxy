@@ -11,5 +11,4 @@
 # Author: Enthought, Inc.
 # Description: <Enthought pyface package component>
 #------------------------------------------------------------------------------
-__import__('pkg_resources').declare_namespace(__name__)
 
