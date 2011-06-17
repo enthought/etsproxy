@@ -18,4 +18,7 @@ setup(
     maintainer = 'ETS Developers',
     maintainer_email = 'enthought-dev@enthought.com',
     namespace_packages = ['enthought'],
+    entry_points = dict(console_scripts=[
+            'ets3to4 = enthought.ets3to4:main',
+            ]),
 )

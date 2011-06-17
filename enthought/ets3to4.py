@@ -1,6 +1,7 @@
 """
 updates ETS imports to avoid proxy
 """
+import sys
 import os
 from os.path import join
 
@@ -84,6 +85,19 @@ def update_file(path):
 
 
 def main():
+    if len(sys.argv) > 1:
+        print """usage: ets3to4
+
+This utility, can be used to convert projects from ETS version 3 to 4.
+It simply replaces old namespace strings (e.g. 'enthought.traits.api')
+to new ones (e.g. 'traits.api'), in all Python files in the CWD
+recursively.
+Once the conversion of your project is complete, the etsproxy module
+should no longer be necessary.  However, this tool is very simple and
+does not catch all corner cases.
+"""
+        return
+
     for root, dirs, files in os.walk(os.getcwd()):
         parts = root.split(os.sep)
         if '.git' in parts or '.svn' in parts or 'etsproxy' in parts:
