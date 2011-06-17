@@ -86,7 +86,7 @@ def update_file(path):
 def main():
     for root, dirs, files in os.walk(os.getcwd()):
         parts = root.split(os.sep)
-        if '.git' in parts:
+        if '.git' in parts or '.svn' in parts:
             continue
         for fn in files:
             if fn.endswith('.py'):
