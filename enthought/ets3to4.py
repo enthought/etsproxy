@@ -3,7 +3,7 @@ updates ETS imports to avoid proxy
 """
 import sys
 import os
-from os.path import join
+from os.path import abspath, isdir, join
 
 
 # Please note that the order of items in this list matters.
@@ -76,31 +76,46 @@ def update_file(path):
     data = fi.read()
     fi.close()
 
+    orig_data = data
     for old, new in MAP:
         data = data.replace(old, new)
+    if data == orig_data:
+        return
 
+    print 'rewriting', path
     fo = open(path, 'w')
     fo.write(data)
     fo.close()
 
 
-def main():
-    if len(sys.argv) > 1:
-        print """usage: ets3to4
+def help():
+    print """usage: ets3to4 DIRECTORY
 
 This utility, can be used to convert projects from ETS version 3 to 4.
 It simply replaces old namespace strings (e.g. 'enthought.traits.api')
-to new ones (e.g. 'traits.api'), in all Python files in the CWD
+to new ones (e.g. 'traits.api'), in all Python files in DIRECTORY
 recursively.
 Once the conversion of your project is complete, the etsproxy module
 should no longer be necessary.  However, this tool is very simple and
 does not catch all corner cases.
 """
-        return
+    sys.exit()
 
-    for root, dirs, files in os.walk(os.getcwd()):
+
+def main():
+    if '-h' in sys.argv or '--help' in sys.argv:
+        help()
+
+    if len(sys.argv) != 2:
+        sys.exit('Error: exactly one argument required, try -h')
+
+    dir_path = sys.argv[1]
+    if not isdir(dir_path):
+        sys.exit('Error: not a directory: %s' % dir_path)
+
+    for root, dirs, files in os.walk(dir_path):
         parts = root.split(os.sep)
-        if '.git' in parts or '.svn' in parts or 'etsproxy' in parts:
+        if '.git' in parts or '.svn' in parts or '.hg' in parts:
             continue
         for fn in files:
             if fn.endswith('.py'):

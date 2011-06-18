@@ -16,11 +16,11 @@ For convenience this package also contains a refactor tool to convert
 projects to the new namespace (such that the don't relay on the proxy)::
 
    $ ets3to4 -h
-   usage: ets3to4
+   usage: ets3to4 DIRECTORY
 
    This utility, can be used to convert projects from ETS version 3 to 4.
    It simply replaces old namespace strings (e.g. 'enthought.traits.api')
-   to new ones (e.g. 'traits.api'), in all Python files in the CWD
+   to new ones (e.g. 'traits.api'), in all Python files in DIRECTORY
    recursively.
    Once the conversion of your project is complete, the etsproxy module
    should no longer be necessary.  However, this tool is very simple and
