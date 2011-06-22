@@ -4,7 +4,7 @@ etsproxy: proxy modules for backwards compatibility
 
 This is the ETS proxy package, it contains the proxy modules for *all* ETS
 projects which map the old enthought namespace imports to the
-namespace-refactored ETS packages.  For exmaple::
+namespace-refactored ETS packages.  For example::
 
    from enthought.traits.api import HasTraits
 
