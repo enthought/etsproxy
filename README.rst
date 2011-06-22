@@ -13,7 +13,7 @@ is now simply::
    from traits.api import HasTraits
 
 For convenience this package also contains a refactor tool to convert
-projects to the new namespace (such that the don't relay on the proxy)::
+projects to the new namespace (such that the don't rely on the proxy)::
 
    $ ets3to4 -h
    usage: ets3to4 DIRECTORY
