@@ -3,7 +3,7 @@ updates ETS imports to avoid proxy
 """
 import sys
 import os
-from os.path import abspath, isdir, join
+from os.path import isdir, join
 
 
 # Please note that the order of items in this list matters.
@@ -22,6 +22,9 @@ MAP = [
     ('enthought.util', 'traits.util'),
     ('enthought.testing', 'traits.testing'),
     # enable
+    ('enthought.savage.traits', 'enable.savage.trait_defs'),
+    ('enthought.kiva.traits', 'kiva.trait_defs'),
+    ('enthought.enable.traits', 'enable.savage.trait_defs'),
     ('enthought.enable', 'enable'),
     ('enthought.kiva', 'kiva'),
     ('enthought.savage', 'enable.savage'),
@@ -52,6 +55,7 @@ MAP = [
     ('enthought.developer', 'etsdevtools.developer'),
     ('enthought.endo', 'etsdevtools.endo'),
     # apptools
+    ('enthought.naming.traits', 'apptools.naming.trait_defs'),
     ('enthought.appscripting', 'apptools.appscripting'),
     ('enthought.help', 'apptools.help'),
     ('enthought.io', 'apptools.io'),
