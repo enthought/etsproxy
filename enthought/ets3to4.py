@@ -70,6 +70,9 @@ MAP = [
     ('enthought.tvtk', 'tvtk'),
 
     # traits -> trait_defs
+    # The change was necessary to avoid ambiguities regarding "import traits"
+    # inside directories which contain "traits" sub packages.  In the past,
+    # this was OK because one would never "import traits" directly.
     ('apptools.naming.traits', 'apptools.naming.trait_defs'),
     ('enable.traits', 'enable.trait_defs'),
     ('enable.savage.traits', 'enable.savage.trait_defs'),
