@@ -22,9 +22,6 @@ MAP = [
     ('enthought.util', 'traits.util'),
     ('enthought.testing', 'traits.testing'),
     # enable
-    ('enthought.savage.traits', 'enable.savage.trait_defs'),
-    ('enthought.kiva.traits', 'kiva.trait_defs'),
-    ('enthought.enable.traits', 'enable.savage.trait_defs'),
     ('enthought.enable', 'enable'),
     ('enthought.kiva', 'kiva'),
     ('enthought.savage', 'enable.savage'),
@@ -55,7 +52,6 @@ MAP = [
     ('enthought.developer', 'etsdevtools.developer'),
     ('enthought.endo', 'etsdevtools.endo'),
     # apptools
-    ('enthought.naming.traits', 'apptools.naming.trait_defs'),
     ('enthought.appscripting', 'apptools.appscripting'),
     ('enthought.help', 'apptools.help'),
     ('enthought.io', 'apptools.io'),
@@ -72,6 +68,12 @@ MAP = [
     # mayavi
     ('enthought.mayavi', 'mayavi'),
     ('enthought.tvtk', 'tvtk'),
+
+    # traits -> trait_defs
+    ('apptools.naming.traits', 'apptools.naming.trait_defs'),
+    ('enable.traits', 'enable.trait_defs'),
+    ('enable.savage.traits', 'enable.savage.trait_defs'),
+    ('kiva.traits', 'kiva.trait_defs'),
 ]
 
 
