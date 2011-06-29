@@ -16,9 +16,3 @@
 #------------------------------------------------------------------------------
 
 from __future__ import absolute_import
-
-try:
-    # if the code is ran from an egg, the namespace must be declared
-    except:
-    pass
-
