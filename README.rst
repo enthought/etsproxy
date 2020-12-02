@@ -1,3 +1,8 @@
+This package is no longer maintained, and no current Enthought Tool Suite
+projects should rely on it. If you encounter projects that still depend
+on etsproxy, please open issues against those projects.
+
+
 ===================================================
 etsproxy: proxy modules for backwards compatibility
 ===================================================
